@@ -190,13 +190,13 @@ public class CPMPlayer : MonoBehaviour
     {
         if (holdJumpToBhop)
         {
-            wishJump = Input.GetButton("Jump");
+            wishJump = Input.GetMouseButtonDown(1);
             return;
         }
 
-        if (Input.GetButtonDown("Jump") && !wishJump)
+        if (Input.GetMouseButtonDown(1) && !wishJump)
             wishJump = true;
-        if (Input.GetButtonUp("Jump"))
+        if (Input.GetMouseButtonUp(1))
             wishJump = false;
     }
 

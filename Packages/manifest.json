@@ -11,6 +11,7 @@
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.2",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "com.wfowler1.unity3d-bsp-importer": "https://github.com/wfowler1/Unity3D-BSP-Importer.git",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
