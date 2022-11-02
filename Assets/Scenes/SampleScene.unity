@@ -683,8 +683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerView: {fileID: 0}
   playerViewYOffset: 0.6
-  xMouseSensitivity: 30
-  yMouseSensitivity: 30
+  xMouseSensitivity: 90
+  yMouseSensitivity: 90
   gravity: 20
   friction: 6
   moveSpeed: 7
@@ -838,7 +838,7 @@ Transform:
   m_GameObject: {fileID: 677179766}
   m_LocalRotation: {x: 0, y: -0.7307602, z: 0, w: 0.68263423}
   m_LocalPosition: {x: 13.322644, y: 3.8279996, z: -1.3601679}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
@@ -1170,7 +1170,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 60
+  field of view: 85
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
